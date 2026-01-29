@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Test Shared Lib') {
       steps {
-        hello()
+        ciPipeline()
       }
     }
   }
